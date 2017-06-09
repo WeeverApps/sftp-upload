@@ -31,10 +31,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
 
-core-util-is@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
-
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -57,17 +53,13 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@~2.0.1:
+inherits@2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
 is@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/is/-/is-3.2.1.tgz#d0ac2ad55eb7b0bec926a5266f6c662aaa83dca5"
-
-isarray@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
 lodash@^4.14.0:
   version "4.17.4"
@@ -99,46 +91,36 @@ path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
 
-readable-stream@~1.0.0:
-  version "1.0.34"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
-
-scp2@0.5.0:
+"scp2@git+ssh://git@github.com/WeeverApps/node-scp2.git#431573de172a350dffb47a9028be91bdca02be0f":
   version "0.5.0"
-  resolved "https://registry.yarnpkg.com/scp2/-/scp2-0.5.0.tgz#64ee74bc3685f3a4c6290f2da8c1e3b4eef92e8d"
+  resolved "git+ssh://git@github.com/WeeverApps/node-scp2.git#431573de172a350dffb47a9028be91bdca02be0f"
   dependencies:
     async "~0.9.0"
     glob "~7.0.3"
     lodash "~4.11.1"
-    ssh2 "~0.4.10"
+    ssh2 "^0.5.4"
 
-ssh2-streams@~0.0.22:
-  version "0.0.23"
-  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.0.23.tgz#aeef30831bb5fc4af6aa3f6d0a261a413531612b"
+semver@^5.1.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
+
+ssh2-streams@~0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/ssh2-streams/-/ssh2-streams-0.1.18.tgz#d5721c1da3129afa56c888841448ae7cbdefec8b"
   dependencies:
     asn1 "~0.2.0"
-    readable-stream "~1.0.0"
+    semver "^5.1.0"
     streamsearch "~0.1.2"
 
-ssh2@~0.4.10:
-  version "0.4.15"
-  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.4.15.tgz#07c6f4106d9f7b6ea6e4df636c6c53f1f9817ff8"
+ssh2@^0.5.4:
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.5.5.tgz#c7781ecd2ece7304a253cf620fab5a5c22bb2235"
   dependencies:
-    readable-stream "~1.0.0"
-    ssh2-streams "~0.0.22"
+    ssh2-streams "~0.1.18"
 
 streamsearch@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/streamsearch/-/streamsearch-0.1.2.tgz#808b9d0e56fc273d809ba57338e929919a1a9f1a"
-
-string_decoder@~0.10.x:
-  version "0.10.31"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
 
 wrappy@1:
   version "1.0.2"
