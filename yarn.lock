@@ -91,14 +91,14 @@ path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
 
-"scp2@git+ssh://git@github.com/WeeverApps/node-scp2.git#431573de172a350dffb47a9028be91bdca02be0f":
+"scp2@git+ssh://git@github.com/WeeverApps/node-scp2.git#e617797de408abbe9989b1d0b2148c1b356afa51":
   version "0.5.0"
-  resolved "git+ssh://git@github.com/WeeverApps/node-scp2.git#431573de172a350dffb47a9028be91bdca02be0f"
+  resolved "git+ssh://git@github.com/WeeverApps/node-scp2.git#e617797de408abbe9989b1d0b2148c1b356afa51"
   dependencies:
     async "~0.9.0"
     glob "~7.0.3"
     lodash "~4.11.1"
-    ssh2 "^0.5.4"
+    ssh2 "^0.5.5"
 
 semver@^5.1.0:
   version "5.3.0"
@@ -112,7 +112,7 @@ ssh2-streams@~0.1.18:
     semver "^5.1.0"
     streamsearch "~0.1.2"
 
-ssh2@^0.5.4:
+ssh2@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/ssh2/-/ssh2-0.5.5.tgz#c7781ecd2ece7304a253cf620fab5a5c22bb2235"
   dependencies:
